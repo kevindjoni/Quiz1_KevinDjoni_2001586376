@@ -7,14 +7,14 @@
 </head>
 <body>
   <img src="QQLogo.png">
-  <div id="logoText">Car Sharing</div>
+  <div id="logoText">Car Sharing [Passenger]</div>
   <br>
-  <ul id="linkMenu1">
+  <ul id="linkMenu">
     <li><a href="availableOffers.php">Available Offers</a></li>
     <li><a href="requestedRoutes.php">Requested Routes</a></li>
     <li><a href="routesBooked.php">My Routes Booked</a></li>
   </ul>
   <hr><br>
-  <div id="logoutDriver"><a href="index.php" >Log Out (as Driver)</a></div>
+  <div id="logoutDriver"><a href="index.php" >Log Out (as Passenger)</a></div>
 </body>
 </html>

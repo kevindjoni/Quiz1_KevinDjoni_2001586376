@@ -7,7 +7,7 @@
 </head>
 <body>
   <img src="QQLogo.png">
-  <div id="logoText">Car Sharing</div>
+  <div id="logoText">Car Sharing [Driver]</div>
   <br>
   <ul id="linkMenu">
     <li><a href="availableOffers.php">Available Offers</a></li>
