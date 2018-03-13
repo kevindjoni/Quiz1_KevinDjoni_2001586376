@@ -1,0 +1,75 @@
+html
+{
+  background-color: black;
+  color: white;
+  font-family: arial;
+  text-align: justify;
+}
+
+img
+{
+  display: block;
+  margin: 0 auto;
+  height: 10%;
+  width: 10%;
+}
+
+#logoText
+{
+  text-align: center;
+}
+
+#loginTable
+{
+  text-align: center;
+  font-size: 18px;
+}
+
+table
+{
+  margin: 0 auto;
+}
+
+table, th, td
+{
+    border: 1px solid white;
+    border-collapse:collapse;
+    width: 50%;
+    height: auto;
+}
+
+ul#linkMenu li
+{
+  display: inline-block;
+  margin-left: 205px;
+  text-decoration: none;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+a:visited
+{
+  color: white;
+}
+
+a:hover
+{
+  color: blue;
+}
+
+/* #routesBooked
+{
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+} */
+
+#logoutDriver
+{
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
