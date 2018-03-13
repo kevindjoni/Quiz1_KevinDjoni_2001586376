@@ -60,12 +60,13 @@ a:hover
   color: blue;
 }
 
-/* #routesBooked
+.table
 {
-  margin: 0 auto;
-  text-align: center;
-  display: block;
-} */
+  border: 1px solid white;
+  border-collapse: collapse;
+  height: 50px;
+  color: white;
+}
 
 #logoutDriver
 {
