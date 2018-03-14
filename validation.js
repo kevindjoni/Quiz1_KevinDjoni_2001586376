@@ -1,8 +1,6 @@
 
 function validate()
 {
-
-  console.log("BASTARD");
   let formUser = document.forms["login"]["username"].value;
   let formPass = document.forms["login"]["password"].value;
 
