@@ -12,21 +12,19 @@ function validate()
   else {
     return true;
   }
-  // else if (formUser == "user1" && formPass == "pass1")
-  // {
-  //   alert("Login Successful as driver");
-  //   window.location="menuDriver.php";
-  //   return false;
-  // }
-  // else if (formUser == "user2" && formPass == "pass2")
-  // {
-  //   alert("Login Successful as passenger");
-  //   header("Location: menuPassenger.php");
-  //
-  // }
-  // else
-  // {
-  //   alert("Invalid Password and Username");
-  //   return false;
-  // }
+  else if (formUser == "user1" && formPass == "pass1")
+  {
+    alert("Login Successful as Passenger");
+    header("Location: menuPassenger.php");
+  }
+  else if (formUser == "user2" && formPass == "pass2")
+  {
+    alert("Login Successful as Driver");
+    header("Location: menuDriver.php");
+  }
+  else
+  {
+    alert("Invalid Password and Username");
+    return false;
+  }
 }
